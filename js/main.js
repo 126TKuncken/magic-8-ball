@@ -1,4 +1,3 @@
-
 document.getElementById("askButton").addEventListener("click", function() {
 
     
@@ -45,7 +44,7 @@ document.getElementById("askButton").addEventListener("click", function() {
     }
 
   
-    document.getElementById("magic-ball").innerText = eightBall;
+    document.getElementById("eight-ball-text").innerText = eightBall;
 
     console.log(`Magic 8 Ball says: ${eightBall}`);
 });
